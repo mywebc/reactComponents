@@ -3,7 +3,7 @@ import React from 'react'
 function Button () {
     return (
         <div>
-            hello
+            hello2
         </div>
     )
 }

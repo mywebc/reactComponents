@@ -2,7 +2,8 @@
   "name": "leui",
   "version": "1.0.0",
   "description": "react/TS/Components",
-  "main": "index.js",
+  "main": "dist/lib/index",
+  "types": "dist/lib/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE=development  webpack-dev-server --config webpack.config.dev.js",

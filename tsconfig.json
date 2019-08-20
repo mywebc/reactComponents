@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+      // 将TS类型文件输出到dist文件夹中
       "outDir": "dist",
       "declaration": true,
       "baseUrl": ".",

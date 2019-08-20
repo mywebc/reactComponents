@@ -24,7 +24,8 @@
       "noUnusedLocals": true
     },
     "include": [
-      "lib/**/*"
+      "lib/**/*",
+      "types/**/*"
     ],
     "exclude": [
       "node_modules",

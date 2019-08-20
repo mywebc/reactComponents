@@ -11,7 +11,7 @@ module.exports = {
     output: {
         // 统一使用node的path来处理路径的拼接，因为不同的系统/或者\
         path: path.resolve(__dirname, 'dist'),
-        library: "LEUI",
+        library: "GOUI",
         libraryTarget: "umd", // 模块规范， umd为兼容模式
     },
     module: {
@@ -22,6 +22,10 @@ module.exports = {
             }, {
                 test: /\.svg$/,
                 loader: "svg-sprite-loader"
+            },
+            {
+                test: /\.s([ac])ss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
     },

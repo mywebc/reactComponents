@@ -1,5 +1,5 @@
 import React from 'react'
-import '../icons/wechat.svg'
+import './importIcons.js'
 
 
 interface IconProps {

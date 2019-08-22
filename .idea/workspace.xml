@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a727ae86-54c6-4c66-8323-2ee5466dd837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/icon/__tests__/icon.unit.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__mocks__/file-mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__mocks__/object-mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__tests__/setupTests..js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.ci.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icon/icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon/icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/jest/results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/jest/results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,13 +22,15 @@
         <counts>
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="circleci" value="2" />
+          <entry key="html" value="3" />
           <entry key="js" value="8" />
           <entry key="json" value="5" />
           <entry key="scss" value="1" />
@@ -43,18 +38,20 @@
           <entry key="ts" value="4" />
           <entry key="tsx" value="7" />
           <entry key="unit" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="1" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="4" />
           <entry key="TypeScript JSX" value="7" />
+          <entry key="YAML" value="1" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
@@ -92,11 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="117" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -138,6 +144,7 @@
         <option value="$PROJECT_DIR$/lib/icon/__tests__/icon.unit.jsx" />
         <option value="$PROJECT_DIR$/jest.config.ci.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -157,10 +164,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="506" />
-    <option name="y" value="150" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="452" />
+    <option name="y" value="7" />
+    <option name="width" value="1518" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -185,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,32 +202,7 @@
             <path>
               <item name="LEUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="LEUI" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LEUI" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LEUI" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LEUI" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LEUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LEUI" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LEUI" type="b2602c69:ProjectViewProjectNode" />
@@ -237,10 +218,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="pack&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/package.json&#10;jest&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/jest.config.js&#10;enzyme&#9;ACTION&#9;null&#10;jest.con&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/jest.config.js&#10;commi&#9;ACTION&#9;CheckinProject&#10;comm&#9;ACTION&#9;CheckinProject&#10;webpack&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/webpack.config.js&#10;reform&#9;ACTION&#9;ReformatCode&#10;webpac&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/webpack.config.js&#10;index&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/index.html&#10;refor&#9;ACTION&#9;ReformatCode&#10;keyma&#9;ACTION&#9;Help.KeymapReference" />
+    <property name="SearchEverywhereHistoryKey" value="comm&#9;ACTION&#9;CheckinProject&#10;pack&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/package.json&#10;jest&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/jest.config.js&#10;enzyme&#9;ACTION&#9;null&#10;jest.con&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/jest.config.js&#10;commi&#9;ACTION&#9;CheckinProject&#10;webpack&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/webpack.config.js&#10;reform&#9;ACTION&#9;ReformatCode&#10;webpac&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/webpack.config.js&#10;index&#9;FILE&#9;file://C:/Users/陈晓乐/Desktop/personalProjexts/react/LEUI/index.html&#10;refor&#9;ACTION&#9;ReformatCode&#10;keyma&#9;ACTION&#9;Help.KeymapReference" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -250,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\陈晓乐\Desktop\personalProjexts\react\LEUI\.circleci" />
       <recent name="C:\Users\陈晓乐\Desktop\personalProjexts\react\LEUI\test" />
       <recent name="C:\Users\陈晓乐\Desktop\personalProjexts\react\LEUI\lib\icon" />
       <recent name="C:\Users\陈晓乐\Desktop\personalProjexts\react\LEUI\lib" />
@@ -279,7 +262,9 @@
       <updated>1566274351003</updated>
       <workItem from="1566274352974" duration="4531000" />
       <workItem from="1566282470984" duration="10727000" />
-      <workItem from="1566300265653" duration="1094000" />
+      <workItem from="1566300265653" duration="2646000" />
+      <workItem from="1566368131701" duration="762000" />
+      <workItem from="1566380830227" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="初步显示icon">
       <created>1566281066282</created>
@@ -327,10 +312,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16352000" />
+    <option name="totallyTimeSpent" value="22168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
@@ -347,11 +332,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.475" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30555555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.25603217" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.2627346" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,10 +511,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/lcov-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="117" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>

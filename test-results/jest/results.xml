@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" time="7.622">
-  <testsuite name="hello test jest" errors="0" failures="0" skipped="0" timestamp="2019-08-20T10:23:07" time="2.453" tests="1">
-    <testcase classname="hello test jest 1等于1" name="hello test jest 1等于1" time="0.004">
+<testsuites name="jest tests" tests="5" failures="0" time="13.737">
+  <testsuite name="hello test jest" errors="0" failures="0" skipped="0" timestamp="2019-08-22T07:06:32" time="5.542" tests="1">
+    <testcase classname="hello test jest 1等于1" name="hello test jest 1等于1" time="0.01">
     </testcase>
   </testsuite>
-  <testsuite name="hello test jest" errors="0" failures="0" skipped="0" timestamp="2019-08-20T10:23:07" time="2.47" tests="1">
-    <testcase classname="hello test jest 1等于1" name="hello test jest 1等于1" time="0.004">
+  <testsuite name="hello test jest" errors="0" failures="0" skipped="0" timestamp="2019-08-22T07:06:32" time="5.542" tests="1">
+    <testcase classname="hello test jest 1等于1" name="hello test jest 1等于1" time="0.009">
     </testcase>
   </testsuite>
-  <testsuite name="classes" errors="0" failures="0" skipped="0" timestamp="2019-08-20T10:23:07" time="3.173" tests="2">
-    <testcase classname="classes 接受一个classes" name="classes 接受一个classes" time="0.005">
+  <testsuite name="classes" errors="0" failures="0" skipped="0" timestamp="2019-08-22T07:06:32" time="5.549" tests="2">
+    <testcase classname="classes 接受一个classes" name="classes 接受一个classes" time="0.008">
     </testcase>
-    <testcase classname="classes 接受奇怪的classes" name="classes 接受奇怪的classes" time="0.001">
+    <testcase classname="classes 接受奇怪的classes" name="classes 接受奇怪的classes" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-08-20T10:23:07" time="3.235" tests="1">
-    <testcase classname="Icon onClick can run " name="Icon onClick can run " time="0.04">
+  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-08-22T07:06:32" time="5.658" tests="1">
+    <testcase classname="Icon onClick can run " name="Icon onClick can run " time="0.055">
     </testcase>
   </testsuite>
 </testsuites>
